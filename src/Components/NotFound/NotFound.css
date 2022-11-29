@@ -1,0 +1,12 @@
+.not-found-img img {
+    width: 700px;
+}
+
+.not-found-img h1 {
+    color: #2F2E42;
+}
+
+.not-found-img a {
+    text-decoration: none;
+    color: blue;
+}
