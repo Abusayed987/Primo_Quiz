@@ -3,7 +3,44 @@
     margin: 0 auto;
 }
 
-h1 {
+.statistics h1 {
     color: #343A3E;
     margin: 60px auto;
+}
+
+.forTablet,
+.forMobile {
+    display: none;
+}
+
+/* responsive for Tablet  */
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .forLaptop,
+    .forMobile {
+        display: none;
+    }
+
+    .forTablet {
+        display: block;
+    }
+
+}
+
+
+/* Responsive for  mobile*/
+@media screen and (min-width:320px) and (max-width:767px) {
+
+    .forLaptop,
+    .forTablet {
+        display: none;
+    }
+
+    .forMobile {
+        display: block;
+    }
+
+    .statistics h1 {
+        font-size: 17.5px;
+    }
 }

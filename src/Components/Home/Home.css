@@ -9,8 +9,6 @@
 
 .header-section div {
     margin: 0 auto;
-    /* height: 700px; */
-    /* padding: 0px 50px 30px 50px; */
     padding-top: 20px;
     padding-bottom: 70px;
     color: #a8e1f4;
@@ -27,4 +25,27 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+}
+
+
+/* Responsive for  tablet*/
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .topic-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header-description {
+        width: 768px;
+    }
+}
+
+/* Responsive for  mobile*/
+@media screen and (min-width:320px) and (max-width:767px) {
+    .topic-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .header-description {
+        width: 320px;
+    }
 }

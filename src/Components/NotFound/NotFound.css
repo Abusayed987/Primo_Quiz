@@ -1,12 +1,20 @@
-.not-found-img img {
-    width: 700px;
+.not-found img {
+    width: 500px;
 }
 
-.not-found-img h1 {
+.not-found h1 {
     color: #2F2E42;
 }
 
-.not-found-img a {
+.not-found a {
     text-decoration: none;
     color: blue;
+}
+
+
+/* Responsive for  mobile*/
+@media screen and (min-width:320px) and (max-width:767px) {
+    .not-found img {
+        width: 320px;
+    }
 }

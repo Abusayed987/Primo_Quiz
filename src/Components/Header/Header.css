@@ -30,10 +30,36 @@
     font-size: 22px;
     cursor: pointer;
     color: #d1f6ff;
+    padding-left: 10px;
+}
+
+.navlink-container {
+    padding-right: 20px;
 }
 
 .activeLink {
     border-bottom: 1px solid #eef7ff;
     padding: 5px;
     border-radius: 5px;
+}
+
+/* responsive for Tablet  */
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .navbar {
+        /* width: 768px; */
+    }
+
+}
+
+
+/* Responsive for  mobile*/
+@media screen and (min-width:320px) and (max-width:767px) {
+    .navlink-container {
+        padding-right: 0px;
+    }
+
+    .navbar-container a {
+        margin-right: 5px;
+        font-size: 16px;
+    }
 }

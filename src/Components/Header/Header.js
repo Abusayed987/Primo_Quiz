@@ -8,7 +8,7 @@ const Header = () => {
                 <div className='logo'>
                     <h3>PrimoQuiz</h3>
                 </div>
-                <div>
+                <div className='navlink-container'>
                     <NavLink className={({ isActive }) => isActive ? 'activeLink' : undefined}
                         to='/'>Home</NavLink>
                     <NavLink className={({ isActive }) => isActive ? 'activeLink' : undefined}
