@@ -12,13 +12,14 @@
 
 .navbar-container a {
     text-decoration: none;
-    color: #9BC1E7;
+    /* color: #9BC1E7; */
+    color: #fff;
     margin-right: 12px;
     font-size: 18px;
 }
 
 .navbar-container a:hover {
-    color: #eef7ff;
+    color: #57f9ff;
 }
 
 .navbar-container img {
@@ -29,4 +30,10 @@
     font-size: 22px;
     cursor: pointer;
     color: #d1f6ff;
+}
+
+.activeLink {
+    border-bottom: 1px solid #eef7ff;
+    padding: 5px;
+    border-radius: 5px;
 }
