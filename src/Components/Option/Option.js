@@ -1,9 +1,11 @@
 import React from 'react';
 import './Option.css'
-const Option = ({ option }) => {
+const Option = ({ option, handlerOption, notifyForOption }) => {
     return (
-        <div className='option'>
-            <p>{'\u2B26'}  {option} </p>
+        <div onClick={notifyForOption}>
+            <div onClick={() => handlerOption(option)} className='option'>
+                <p>{'\u2B26'}  {option} </p>
+            </div>
         </div>
     );
 };
