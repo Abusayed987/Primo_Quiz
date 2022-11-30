@@ -21,7 +21,7 @@ const Blog = () => {
                 <h2>Question: 03 <br /> <br />
                     What is useRef Hook in React Router?
                 </h2>
-                <p>Ans: The React Router is mainly used for developing Single Page Web Applications. React Router is used to define multiple routes in the application. The main purpose  of library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL. </p>
+                <p>Ans: The useRef is one of the many built-in hooks provided by React.It is useful for persisting mutable data between component renders. useHref hook returns a URL that may be used to link to the given to location, even outside of React Router.It can be used to access a DOM element directly.</p>
             </div>
         </div>
     );
