@@ -1,5 +1,9 @@
 .statistics {
     max-width: 1024px;
     margin: 0 auto;
-    border: 1px solid firebrick;
+}
+
+h1 {
+    color: #343A3E;
+    margin: 60px auto;
 }

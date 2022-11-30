@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './Components/Layout/Main';
 import Home from './Components/Home/Home';
-import Quizs from './Components/Quizs/Quizs';
 import Statistics from './Components/Statistics/Statistics';
 import Blog from './Components/Blog/Blog';
 import NotFound from './Components/NotFound/NotFound';
@@ -19,15 +17,15 @@ function App() {
           loader: async () => fetch('https://openapi.programming-hero.com/api/quiz')
         },
         {
-          path: '/quiz', element: <Quizs></Quizs>,
-        },
-        {
           path: '/quiz/:quizId', element: <QuizQuestions></QuizQuestions>,
           loader: async ({ params }) => {
-            return fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizId}`);
+            return fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizId}`)
           }
         },
-        { path: '/statistics', element: <Statistics></Statistics> },
+        {
+          path: '/statistics', element: <Statistics></Statistics>,
+          loader: async () => fetch('https://openapi.programming-hero.com/api/quiz')
+        },
         { path: '/blog', element: <Blog></Blog> },
         { path: '*', element: <NotFound></NotFound> }
       ]
