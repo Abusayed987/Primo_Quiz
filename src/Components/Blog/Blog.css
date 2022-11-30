@@ -1,5 +1,19 @@
 .blog {
     max-width: 1024px;
-    margin: 0 auto;
-    border: 1px solid firebrick;
+    margin: 20px auto;
+
+}
+
+.blog div {
+    padding: 30px;
+    text-align: center;
+}
+
+.blog div h2 {
+    color: #343A3E;
+}
+
+.blog div p {
+    font-size: 17px;
+    line-height: 25px;
 }
