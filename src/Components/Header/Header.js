@@ -1,12 +1,14 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Header.css'
 const Header = () => {
     return (
         <div className='navbar'>
             <nav className='navbar-container'>
                 <div className='logo'>
-                    <h3>PrimoQuiz</h3>
+                    <Link to='/'>
+                        <h3>PrimoQuiz</h3>
+                    </Link>
                 </div>
                 <div className='navlink-container'>
                     <NavLink className={({ isActive }) => isActive ? 'activeLink' : undefined}
