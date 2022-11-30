@@ -1,0 +1,16 @@
+.quiz-questions {
+    margin: 0px auto;
+    width: 1024px;
+}
+
+.quiz-name {
+    margin-top: 2.8rem;
+    font-size: 30px;
+    color: #353535;
+}
+
+.single-question {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+}

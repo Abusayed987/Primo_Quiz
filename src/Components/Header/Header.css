@@ -14,7 +14,7 @@
     text-decoration: none;
     color: #9BC1E7;
     margin-right: 12px;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .navbar-container a:hover {
@@ -28,5 +28,5 @@
 .logo {
     font-size: 22px;
     cursor: pointer;
-    color: #fff;
+    color: #d1f6ff;
 }

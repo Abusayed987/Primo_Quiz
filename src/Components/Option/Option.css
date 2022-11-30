@@ -1,0 +1,11 @@
+.option {
+    border: 1px solid #a8e1f4a1;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.option:hover {
+    background-color: #a8e1f438;
+}
